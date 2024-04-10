@@ -1,0 +1,70 @@
+/* Type your code here */
+
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:opsz@6..12&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Nunito Sans', sans-serif;
+}
+
+body{
+    background-image: url(https://s3.ap-south-1.amazonaws.com/kalvi-education.github.io/front-end-web-development/cricpro-bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+#logo{
+    position: absolute;
+    right: 20px;
+    top: 10px;
+}
+
+.body{
+    padding-left: 70px;
+}
+
+/* styiling title */
+.title{
+    padding-top: 62px;
+}
+
+.title>h1{
+    font-size: 35px;
+    font-weight: 1000;
+    text-shadow: 2px 2px rgba(20, 20, 20, 0.342);
+}
+
+table{
+    width: 60%;
+  border-collapse: collapse;
+  font-size: 14px;
+  color: #333;
+  height: 70%;
+}
+
+#thead{
+    background-color: hsl(9, 86%, 57%);
+    /* border-collapse: collapse; */
+}
+
+.tbody{
+    background-color: hsl(0, 0%, 100%);
+}
+
+th, td {
+    padding: 10px;
+    text-align: left;
+    border-bottom: 1px solid #ddd;
+  }
+
+  th {
+    background-color: #f2f2f2;
+    font-weight: bold;
+  }
+  
+  td {
+    padding-top: 12px;
+    padding-bottom: 12px;
+  }
+  
